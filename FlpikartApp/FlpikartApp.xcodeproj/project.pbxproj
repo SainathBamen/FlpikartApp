@@ -1,0 +1,449 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		322FF6EC29FBAB8D00ED6E8C /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 322FF6EB29FBAB8D00ED6E8C /* LoginViewController.swift */; };
+		323E580529FA4B7300BD5A75 /* SettingData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 323E580429FA4B7300BD5A75 /* SettingData.swift */; };
+		324BBAA829EA8FF600927C6F /* ProductViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 324BBAA729EA8FF600927C6F /* ProductViewController.swift */; };
+		327CF93329F1061E006ACC8C /* OtherCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 327CF93229F1061E006ACC8C /* OtherCollectionViewCell.swift */; };
+		3286B58F29FCFF8100003D1C /* ViewController4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3286B58E29FCFF8000003D1C /* ViewController4.swift */; };
+		328BB23D29F8F689005FBEF9 /* DetailProductViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 328BB23C29F8F689005FBEF9 /* DetailProductViewController.swift */; };
+		328BC1112A03B4A000EC9ED7 /* ProCV.swift in Sources */ = {isa = PBXBuildFile; fileRef = 328BC1102A03B4A000EC9ED7 /* ProCV.swift */; };
+		32986F9329DAA85100E9A892 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32986F9229DAA85100E9A892 /* AppDelegate.swift */; };
+		32986F9529DAA85100E9A892 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32986F9429DAA85100E9A892 /* SceneDelegate.swift */; };
+		32986F9729DAA85100E9A892 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32986F9629DAA85100E9A892 /* ViewController.swift */; };
+		32986F9A29DAA85100E9A892 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32986F9829DAA85100E9A892 /* Main.storyboard */; };
+		32986F9C29DAA85300E9A892 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32986F9B29DAA85300E9A892 /* Assets.xcassets */; };
+		32986F9F29DAA85300E9A892 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32986F9D29DAA85300E9A892 /* LaunchScreen.storyboard */; };
+		32ACE6E829FFC2F300EAE311 /* LoginAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32ACE6E729FFC2F300EAE311 /* LoginAlert.swift */; };
+		32B770A529EAB64D000208B1 /* ProductSearchCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32B770A429EAB64D000208B1 /* ProductSearchCollectionViewCell.swift */; };
+		32B770A729EAB772000208B1 /* ProductData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32B770A629EAB772000208B1 /* ProductData.swift */; };
+		32D34A282A16004800B408FE /* AccountsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32D34A262A16004800B408FE /* AccountsTableViewCell.swift */; };
+		32D34A292A16004800B408FE /* AccountsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 32D34A272A16004800B408FE /* AccountsTableViewCell.xib */; };
+		32D34A2B2A16020100B408FE /* FlipkartPlusViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32D34A2A2A16020100B408FE /* FlipkartPlusViewController.swift */; };
+		32D34A2D2A16052800B408FE /* EditprofileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32D34A2C2A16052800B408FE /* EditprofileViewController.swift */; };
+		32D9399B29E544420076183E /* MyCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32D9399A29E544420076183E /* MyCollectionViewCell.swift */; };
+		32D9399D29E544610076183E /* MyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32D9399C29E544610076183E /* MyTableViewCell.swift */; };
+		32D9399F29E545BA0076183E /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32D9399E29E545BA0076183E /* DataModel.swift */; };
+		32F002D929EE76DE007094C9 /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32F002D829EE76DE007094C9 /* ViewController2.swift */; };
+		32F002DB29EE7AC9007094C9 /* CatogeriesCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32F002DA29EE7AC9007094C9 /* CatogeriesCollectionViewCell.swift */; };
+		32F0FB3C2A03B6680014A29D /* ViewController5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32F0FB3B2A03B6680014A29D /* ViewController5.swift */; };
+		32F0FB3E2A03B6A00014A29D /* ProVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32F0FB3D2A03B6A00014A29D /* ProVC.swift */; };
+		32F0FB402A03C2270014A29D /* DataPassedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32F0FB3F2A03C2270014A29D /* DataPassedViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		322FF6EB29FBAB8D00ED6E8C /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		323E580429FA4B7300BD5A75 /* SettingData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingData.swift; sourceTree = "<group>"; };
+		324BBAA729EA8FF600927C6F /* ProductViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductViewController.swift; sourceTree = "<group>"; };
+		327CF93229F1061E006ACC8C /* OtherCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtherCollectionViewCell.swift; sourceTree = "<group>"; };
+		3286B58E29FCFF8000003D1C /* ViewController4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController4.swift; sourceTree = "<group>"; };
+		328BB23C29F8F689005FBEF9 /* DetailProductViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailProductViewController.swift; sourceTree = "<group>"; };
+		328BC1102A03B4A000EC9ED7 /* ProCV.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProCV.swift; sourceTree = "<group>"; };
+		32986F8F29DAA85100E9A892 /* FlpikartApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlpikartApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		32986F9229DAA85100E9A892 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		32986F9429DAA85100E9A892 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		32986F9629DAA85100E9A892 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		32986F9929DAA85100E9A892 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		32986F9B29DAA85300E9A892 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		32986F9E29DAA85300E9A892 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		32986FA029DAA85300E9A892 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		32ACE6E729FFC2F300EAE311 /* LoginAlert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginAlert.swift; sourceTree = "<group>"; };
+		32B770A429EAB64D000208B1 /* ProductSearchCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductSearchCollectionViewCell.swift; sourceTree = "<group>"; };
+		32B770A629EAB772000208B1 /* ProductData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductData.swift; sourceTree = "<group>"; };
+		32D34A262A16004800B408FE /* AccountsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountsTableViewCell.swift; sourceTree = "<group>"; };
+		32D34A272A16004800B408FE /* AccountsTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AccountsTableViewCell.xib; sourceTree = "<group>"; };
+		32D34A2A2A16020100B408FE /* FlipkartPlusViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlipkartPlusViewController.swift; sourceTree = "<group>"; };
+		32D34A2C2A16052800B408FE /* EditprofileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditprofileViewController.swift; sourceTree = "<group>"; };
+		32D9399A29E544420076183E /* MyCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCollectionViewCell.swift; sourceTree = "<group>"; };
+		32D9399C29E544610076183E /* MyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTableViewCell.swift; sourceTree = "<group>"; };
+		32D9399E29E545BA0076183E /* DataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
+		32F002D829EE76DE007094C9 /* ViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
+		32F002DA29EE7AC9007094C9 /* CatogeriesCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatogeriesCollectionViewCell.swift; sourceTree = "<group>"; };
+		32F0FB3B2A03B6680014A29D /* ViewController5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController5.swift; sourceTree = "<group>"; };
+		32F0FB3D2A03B6A00014A29D /* ProVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProVC.swift; sourceTree = "<group>"; };
+		32F0FB3F2A03C2270014A29D /* DataPassedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataPassedViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		32986F8C29DAA85100E9A892 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		32986F8629DAA85100E9A892 = {
+			isa = PBXGroup;
+			children = (
+				32D34A2C2A16052800B408FE /* EditprofileViewController.swift */,
+				328BB23C29F8F689005FBEF9 /* DetailProductViewController.swift */,
+				32B770A429EAB64D000208B1 /* ProductSearchCollectionViewCell.swift */,
+				324BBAA729EA8FF600927C6F /* ProductViewController.swift */,
+				32986F9129DAA85100E9A892 /* FlpikartApp */,
+				32986F9029DAA85100E9A892 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		32986F9029DAA85100E9A892 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				32986F8F29DAA85100E9A892 /* FlpikartApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		32986F9129DAA85100E9A892 /* FlpikartApp */ = {
+			isa = PBXGroup;
+			children = (
+				32986F9229DAA85100E9A892 /* AppDelegate.swift */,
+				32986F9429DAA85100E9A892 /* SceneDelegate.swift */,
+				32986F9629DAA85100E9A892 /* ViewController.swift */,
+				32B770A629EAB772000208B1 /* ProductData.swift */,
+				32D9399C29E544610076183E /* MyTableViewCell.swift */,
+				327CF93229F1061E006ACC8C /* OtherCollectionViewCell.swift */,
+				32986F9829DAA85100E9A892 /* Main.storyboard */,
+				32F0FB3F2A03C2270014A29D /* DataPassedViewController.swift */,
+				32D34A262A16004800B408FE /* AccountsTableViewCell.swift */,
+				32D34A272A16004800B408FE /* AccountsTableViewCell.xib */,
+				32F0FB3B2A03B6680014A29D /* ViewController5.swift */,
+				328BC1102A03B4A000EC9ED7 /* ProCV.swift */,
+				3286B58E29FCFF8000003D1C /* ViewController4.swift */,
+				32D34A2A2A16020100B408FE /* FlipkartPlusViewController.swift */,
+				322FF6EB29FBAB8D00ED6E8C /* LoginViewController.swift */,
+				32ACE6E729FFC2F300EAE311 /* LoginAlert.swift */,
+				323E580429FA4B7300BD5A75 /* SettingData.swift */,
+				32F002DA29EE7AC9007094C9 /* CatogeriesCollectionViewCell.swift */,
+				32F002D829EE76DE007094C9 /* ViewController2.swift */,
+				32D9399A29E544420076183E /* MyCollectionViewCell.swift */,
+				32986F9B29DAA85300E9A892 /* Assets.xcassets */,
+				32986F9D29DAA85300E9A892 /* LaunchScreen.storyboard */,
+				32986FA029DAA85300E9A892 /* Info.plist */,
+				32D9399E29E545BA0076183E /* DataModel.swift */,
+				32F0FB3D2A03B6A00014A29D /* ProVC.swift */,
+			);
+			path = FlpikartApp;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		32986F8E29DAA85100E9A892 /* FlpikartApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32986FA329DAA85300E9A892 /* Build configuration list for PBXNativeTarget "FlpikartApp" */;
+			buildPhases = (
+				32986F8B29DAA85100E9A892 /* Sources */,
+				32986F8C29DAA85100E9A892 /* Frameworks */,
+				32986F8D29DAA85100E9A892 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FlpikartApp;
+			productName = FlpikartApp;
+			productReference = 32986F8F29DAA85100E9A892 /* FlpikartApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		32986F8729DAA85100E9A892 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					32986F8E29DAA85100E9A892 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = 32986F8A29DAA85100E9A892 /* Build configuration list for PBXProject "FlpikartApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 32986F8629DAA85100E9A892;
+			productRefGroup = 32986F9029DAA85100E9A892 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				32986F8E29DAA85100E9A892 /* FlpikartApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		32986F8D29DAA85100E9A892 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32986F9F29DAA85300E9A892 /* LaunchScreen.storyboard in Resources */,
+				32D34A292A16004800B408FE /* AccountsTableViewCell.xib in Resources */,
+				32986F9C29DAA85300E9A892 /* Assets.xcassets in Resources */,
+				32986F9A29DAA85100E9A892 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		32986F8B29DAA85100E9A892 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32F0FB402A03C2270014A29D /* DataPassedViewController.swift in Sources */,
+				32F002DB29EE7AC9007094C9 /* CatogeriesCollectionViewCell.swift in Sources */,
+				32B770A729EAB772000208B1 /* ProductData.swift in Sources */,
+				32986F9729DAA85100E9A892 /* ViewController.swift in Sources */,
+				32986F9329DAA85100E9A892 /* AppDelegate.swift in Sources */,
+				324BBAA829EA8FF600927C6F /* ProductViewController.swift in Sources */,
+				32D9399B29E544420076183E /* MyCollectionViewCell.swift in Sources */,
+				323E580529FA4B7300BD5A75 /* SettingData.swift in Sources */,
+				32F002D929EE76DE007094C9 /* ViewController2.swift in Sources */,
+				32F0FB3E2A03B6A00014A29D /* ProVC.swift in Sources */,
+				32D9399D29E544610076183E /* MyTableViewCell.swift in Sources */,
+				32D34A2D2A16052800B408FE /* EditprofileViewController.swift in Sources */,
+				3286B58F29FCFF8100003D1C /* ViewController4.swift in Sources */,
+				328BC1112A03B4A000EC9ED7 /* ProCV.swift in Sources */,
+				32D34A2B2A16020100B408FE /* FlipkartPlusViewController.swift in Sources */,
+				32F0FB3C2A03B6680014A29D /* ViewController5.swift in Sources */,
+				328BB23D29F8F689005FBEF9 /* DetailProductViewController.swift in Sources */,
+				32986F9529DAA85100E9A892 /* SceneDelegate.swift in Sources */,
+				322FF6EC29FBAB8D00ED6E8C /* LoginViewController.swift in Sources */,
+				32D34A282A16004800B408FE /* AccountsTableViewCell.swift in Sources */,
+				32ACE6E829FFC2F300EAE311 /* LoginAlert.swift in Sources */,
+				327CF93329F1061E006ACC8C /* OtherCollectionViewCell.swift in Sources */,
+				32B770A529EAB64D000208B1 /* ProductSearchCollectionViewCell.swift in Sources */,
+				32D9399F29E545BA0076183E /* DataModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		32986F9829DAA85100E9A892 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				32986F9929DAA85100E9A892 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		32986F9D29DAA85300E9A892 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				32986F9E29DAA85300E9A892 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		32986FA129DAA85300E9A892 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		32986FA229DAA85300E9A892 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		32986FA429DAA85300E9A892 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FlpikartApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = sai.FlpikartApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		32986FA529DAA85300E9A892 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FlpikartApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = sai.FlpikartApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		32986F8A29DAA85100E9A892 /* Build configuration list for PBXProject "FlpikartApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32986FA129DAA85300E9A892 /* Debug */,
+				32986FA229DAA85300E9A892 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		32986FA329DAA85300E9A892 /* Build configuration list for PBXNativeTarget "FlpikartApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32986FA429DAA85300E9A892 /* Debug */,
+				32986FA529DAA85300E9A892 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 32986F8729DAA85100E9A892 /* Project object */;
+}
